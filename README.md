@@ -1,4 +1,4 @@
-# EXP-1-Image-Handling-and-Pixel-Transformations-Using-OpenCV
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/48d764a0-b483-4093-bc3c-ebdba307937a" /># EXP-1-Image-Handling-and-Pixel-Transformations-Using-OpenCV
 ## AIM:
 Write a Python program using OpenCV that performs the following tasks:
 
@@ -30,18 +30,18 @@ Display the original, lower contrast, and higher contrast images.
 Split the image (boy.jpg) into B, G, R components and display the channels.
 
 ## Program Developed By:
-- **Name:**Vignesh.P
-- **Register Number:** 212224230302
+- **Name:**Adithya Sivkumar
+- **Register Number:** 212224040013
 
 ### Ex. No. 01
 
-#### 1. Read the image ('spidey.jpg') using OpenCV imread() as a grayscale image.
+#### 1. Read the image ('dipt.jpg') using OpenCV imread() as a grayscale image.
 ```python
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv2.imread('spidey.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('dipt.jpg', cv2.IMREAD_GRAYSCALE)
 ```
 
 #### 2. Print the image width, height & Channel.
@@ -63,13 +63,13 @@ plt.show()
 
 #### 4. Save the image as a PNG file using OpenCV imwrite().
 ```python
-cv2.imwrite('spidey.jpg', img)
+cv2.imwrite('dipt.jpg', img)
 print("Image saved successfully.")
 ```
 
 #### 5. Read the saved image above as a color image using cv2.cvtColor().
 ```python
-img_gray = cv2.imread('spidey.jpg', cv2.IMREAD_GRAYSCALE)
+img_gray = cv2.imread('dipt.jpg', cv2.IMREAD_GRAYSCALE)
 img_color = cv2.cvtColor(img_gray, cv2.COLOR_GRAY2RGB)
 ```
 
@@ -125,7 +125,7 @@ plt.show()
 
 #### 10. Read in the image ('city.jpg').
 ```python
-img = cv2.imread('spidey.jpg')
+img = cv2.imread('dipt.jpg')
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 ```
 
@@ -171,7 +171,7 @@ plt.show()
 
 #### 14. Read the image ('city.jpg').
 ```python
-img = cv2.imread('spidey.jpg')
+img = cv2.imread('dipt.jpg')
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 ```
 
@@ -323,21 +323,22 @@ plt.show()
 ```
 
 ## Output:
-<img width="712" height="423" alt="image" src="https://github.com/user-attachments/assets/7571a1da-8107-4082-a430-7b97e3ba5d11" />
-<img width="693" height="437" alt="image" src="https://github.com/user-attachments/assets/6561912d-354c-447d-96e6-55ba7335cdec" />
-<img width="776" height="416" alt="image" src="https://github.com/user-attachments/assets/5979da3d-e11b-41cd-8b63-49e180429706" />
-<img width="785" height="413" alt="image" src="https://github.com/user-attachments/assets/528d9754-5956-4832-a784-ce6358112581" />
-<img width="690" height="432" alt="image" src="https://github.com/user-attachments/assets/e3f0eb6f-e7b3-429c-a390-4620c3cd825f" />
-<img width="715" height="452" alt="image" src="https://github.com/user-attachments/assets/237bf799-4f38-4c7c-b7cb-d0244bbddec3" />
-<img width="812" height="442" alt="image" src="https://github.com/user-attachments/assets/7e93c3e4-c374-45c8-b56a-291f25e41529" />
-<img width="802" height="457" alt="image" src="https://github.com/user-attachments/assets/711eea53-d7f3-465f-8593-eacf0964efac" />
-<img width="777" height="452" alt="image" src="https://github.com/user-attachments/assets/748e8327-39c8-46cc-afae-1639d3857636" />
-<img width="890" height="467" alt="image" src="https://github.com/user-attachments/assets/ac581b7d-2fb7-4110-abbe-dac5033bcbdf" />
-<img width="802" height="415" alt="image" src="https://github.com/user-attachments/assets/9991ba2c-9a9c-45db-bab9-84e1d0d659d3" />
-<img width="718" height="555" alt="image" src="https://github.com/user-attachments/assets/eb923692-44c4-4cbb-b55a-5866a5e2a0fb" />
-<img width="575" height="532" alt="image" src="https://github.com/user-attachments/assets/98e032a9-dd6d-4297-af49-970b40963e25" />
-<img width="792" height="452" alt="image" src="https://github.com/user-attachments/assets/fdb3b0e7-97b9-4f30-8395-339307b1d7d2" />
-<img width="841" height="446" alt="image" src="https://github.com/user-attachments/assets/23eae819-b97d-4847-b6d3-9e82d062b2ed" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/dcf04251-be88-4930-9352-0eb0ca5f0182" />
+<img width="421" height="434" alt="download" src="https://github.com/user-attachments/assets/85de2953-b36b-4dbe-a320-5d904a869ff8" />
+<img width="421" height="434" alt="download" src="https://github.com/user-attachments/assets/af50038c-b50d-4f78-a233-dd1650ce502d" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/42ce8e9b-4317-4c7d-ab81-6158f5bb4424" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/3b1161b9-de5b-4e94-8564-6ce40f5b9fa2" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/c6f46346-392e-40c3-a013-42fac07a2f26" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/5522ebd4-0a15-49ca-9e43-360e011db349" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/335928ef-7d86-4fd0-ae5c-1a0095c20441" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/a40f3213-875b-4531-985d-f9bbffa9c416" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/7d0d8cf5-6843-4bd0-90e6-461b1e961d49" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/c62c0bc8-3272-47fa-8550-04d0b514d42c" />
+<img width="493" height="410" alt="download" src="https://github.com/user-attachments/assets/1b9d9530-4f1b-438b-a690-4c21213dc538" />
+<img width="389" height="410" alt="download" src="https://github.com/user-attachments/assets/3f26e6c8-d40c-4116-baf6-fafc5609a18a" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/c550ff69-ff1d-476f-b2dd-85dc68bcf943" />
+<img width="384" height="410" alt="download" src="https://github.com/user-attachments/assets/7911307f-70e2-4bf6-9cbd-69d6f60df33d" />
+
 
 
 
